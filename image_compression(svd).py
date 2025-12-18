@@ -62,8 +62,8 @@ else:
         b = np.clip(b, 0, 255).astype(np.uint8)
         singlearray = np.stack([r,g,b],axis = 2)
         img = Image.fromarray(singlearray)
-        image.save(f'Outputs/compressed_k={num}.jpg')
-        img.show()
+        img.save(f'Outputs/compressed_k={num}.jpg')
+
 
 
 #concept of building this:
